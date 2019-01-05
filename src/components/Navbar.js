@@ -1,12 +1,19 @@
 import React from 'react';
-import { Link, NavLink, withRouter } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-const Navbar = (props) => {
-    // console.log('props1', props);
-    setTimeout(() => {
-        props.history.push('/about')
-        // console.log('props2', props);
-    }, 2000)
+// Comment out HOC 
+
+/* import { Link, NavLink, withRouter } from 'react-router-dom';
+
+* const Navbar = (props) => {
+*     console.log('props1', props);
+*     setTimeout(() => {
+*         props.history.push('/about')
+*         console.log('props2', props);
+*  }, 2000)
+*/
+
+const Navbar = () => {
 
     return(
         <nav className="nav-wrapper deep-orange accent-3">
@@ -23,5 +30,5 @@ const Navbar = (props) => {
 }
 
 
-
-export default withRouter(Navbar);
+// export default withRouter(Navbar);
+export default Navbar;
