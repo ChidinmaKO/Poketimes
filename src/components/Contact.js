@@ -1,6 +1,12 @@
 import React from 'react';
 
-const Contact = () => {
+const Contact = (props) => {
+    // console.log('props1', props);
+    setTimeout(() => {
+        props.history.push('/about')
+        // console.log('props2', props);
+    }, 2000)
+    
     return(
         <div className="container">
             <h3 className="center">Contact Us</h3>
