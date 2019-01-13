@@ -24,7 +24,7 @@ class Home extends Component {
             })
         ) : (
             <div className='center'>
-                <h4>No Posts Yet!</h4>
+                <h5 className='deep-orange-text'>No Posts Yet!</h5>
             </div>
         )
         return(
