@@ -11,5 +11,6 @@ A simple news app built with React.
 ## Built With
 * [Create React App](https://github.com/facebook/create-react-app)
 * [MaterializeCSS](https://materializecss.com/)
+* [Redux](https://redux.js.org/)
 * [Axios](https://github.com/axios/axios)
 * [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
