@@ -4,7 +4,7 @@
 A simple news app built with React.
 
 ## To view
-* Clone this repo using the following command `git clone https://github.com/ChidinmaKO/Simple-Todo-App.git`
+* Clone this repo using the following command `git clone https://github.com/ChidinmaKO/Poketimes.git`
 * Run `npm install` to install dependencies
 * Visit `http://localhost:3000` to view
 
